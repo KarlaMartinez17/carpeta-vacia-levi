@@ -1,16 +1,23 @@
 {
   "name": "carpeta-vacia-levi",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "repite 'nunca mas'  tantas veces como se lo pidas",
+  "main": "lib/alanPoe.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/babel src --out-dir lib"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KarlaMartinez17/carpeta-vacia-levi.git"
+  },
+  "author": "Karla <karla.dzmora@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "library-test-upload": "^1.0.0"
   }
 }
